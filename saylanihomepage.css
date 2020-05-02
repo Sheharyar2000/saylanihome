@@ -1,0 +1,217 @@
+ .iconbar{
+     padding-left: 100px;
+    /* padding-top: 20px;   */
+   background-color:#067bd4;
+    height: 50px;
+
+}
+.iconbar a{
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+   display: inline-block;
+
+
+}
+.iconline{
+  text-align: center;
+  display: inline-block;
+  padding-left: 10%;
+  color: white;
+  padding-right: 4%;
+  font-family: sans-serif;
+  padding-top: 1%;
+}
+
+ button{
+   padding-left: 2%;
+   padding-right:2%;
+   font-size: 11px
+    border:2px solid #50ad64;
+   color:#50ad64;
+   margin: 4px 2px;
+ cursor: pointer;
+ font-size: 12px;
+ height: 30px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+
+}
+nav img{
+  width: 200px;
+  float: left;
+  padding-right: 300px;
+  padding-left: 100px;
+
+}
+nav ul{
+  float: left;
+  /* padding-left:80px; */
+
+}
+nav ul li{
+  float:left;
+  list-style: none;
+  position: relative;
+
+
+
+}
+nav ul li a{
+  display: block;
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+
+
+}
+nav ul li ul{
+  display: none;
+  position:absolute;
+  background-color: white;
+}
+nav ul li:hover ul{
+  display: block;
+
+}
+nav ul li ul li {
+  width: 180px;
+}
+nav ul li ul li a{
+  padding: 8px 14px;
+
+}
+nav ul li ul li a:hover{
+  background-color: #067bd4;
+}
+
+img{
+  width: 100%;
+  max-height:600px;
+  border: black;
+}
+p{
+  text-align: center;
+  background-color: #067bd4;
+  color: white;
+  font-family: sans-serif;
+  padding: 1px 0px;
+}
+.Intropara{
+  background-color: #e3e5e8
+}
+.Intropara h1{
+  color: #2b8714;
+  text-align: center;
+  padding: 60px 0px;
+  font-family:serif;
+}
+.Intropara img{
+  padding: 0px 50%;
+  height: 50px;
+  width: 70px;
+  position: relative;
+  bottom:  35px;
+  right: 20px;
+}
+.Intropara p{
+  text-align: left;
+  font-family: sans-serif;
+  background-color: #e3e5e8;
+  color: #55585c;
+  padding:2% 10%;
+
+}
+.goodwork{
+  background-color: #067bd4;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.goodwork .DASTRAKHAN{
+  padding-top: 70px;
+  font-family: serif ;
+  font-size: 21px;
+}
+.goodwork .family{
+  padding-top: 70px;
+  font-family: serif;
+  font-size: 21px;
+}
+.goodwork .medical{
+  padding-top: 70px;
+  font-family: serif;
+  font-size: 21px;
+}
+.goodwork .education{
+  padding-top: 70px;
+  font-family: serif;
+  font-size: 21px;
+}
+.doing{
+  background-color: #e3e5e8;
+}
+.doing h1{
+  text-align: center;
+  color: #2b8714;
+  padding: 60px 0px;
+  font-family:serif;
+
+}
+.doing img{
+  padding: 0px 50%;
+ height: 50px;
+ width: 70px;
+ position: relative;
+ bottom:  35px;
+ right: 20px;
+
+}
+.row img{
+  width: 400px;
+  padding-left: 30px;
+  border: grey solid 4px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: #e3e5e8;
+}
+footer{
+  background-color: black;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.number p{
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  background-color: black;
+  padding-top: 20px
+}
+.link p{
+  color: white;
+  padding-top: 20px;
+  background-color: black;
+  text-decoration: underline;
+}
+.connect p{
+  color: white;
+  padding-top: 20px;
+  background-color: black;
+}
+.icons a{
+  color: white;
+  padding-right: 5px;
+
+}
